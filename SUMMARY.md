@@ -5,7 +5,7 @@
   * [uptime](chapter1/uptime.md)
   * [top or htop](chapter1/top-or-htop.md)
   * mpstat
-  * iostat
+  * [iostat](chapter1/iostat.md)
   * vmstat
   * free
   * ping
