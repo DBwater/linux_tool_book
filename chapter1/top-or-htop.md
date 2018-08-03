@@ -54,7 +54,7 @@ top命令是Linux下常用的性能分析工具，能够实时显示系统中各
 * 3 running：正在运行的进程数
 * 107 sleeping：休眠的进程数
 * 0 stopped：停止的进程数
-* 0 zombie
+* 0 zombie：冻结进程数
 
 **Cpu\(s\):**  1.4%us,  9.6%sy,  0.0%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.4%si,  0.0%st
 
