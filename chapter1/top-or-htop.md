@@ -41,23 +41,24 @@ top命令是Linux下常用的性能分析工具，能够实时显示系统中各
 > w：将当前设置写入~/.toprc文件中。
 > ```
 
-![](/assets/import1.png)
+**top:**
 
-top - 15:27:30：当前系统时间 
+* 15:27:30：当前系统时间
+* up  4:56：系统已经运行时间
+* 2 users：当前用户个数
+* load average: 0.00, 0.00, 0.04：系统负载，5,10,15分钟任务队列平均长度
 
-up  4:56：系统已经运行时间
+**Tasks: **
 
-  2 users,  load average: 0.00, 0.00, 0.04
+* 110 total: 进程总数
+* 3 running：正在运行的进程数
+* 107 sleeping：休眠的进程数
+* 0 stopped：停止的进程数
+* 0 zombie
 
-Tasks: 110 total,   3 running, 107 sleeping,   0 stopped,   0 zombie
+**Cpu\(s\):**  1.4%us,  9.6%sy,  0.0%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.4%si,  0.0%st
 
-Cpu\(s\):  1.4%us,  9.6%sy,  0.0%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.4%si,  0.0%st
+**Mem: **  4057864k total,  1925440k used,  2132424k free,    34740k buffers
 
-Mem:   4057864k total,  1925440k used,  2132424k free,    34740k buffers
-
-Swap:        0k total,        0k used,        0k free,  1223724k cached
-
-
-
-
+**Swap:**        0k total,        0k used,        0k free,  1223724k cached
 
