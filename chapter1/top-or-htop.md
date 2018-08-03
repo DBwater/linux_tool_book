@@ -56,9 +56,30 @@ top命令是Linux下常用的性能分析工具，能够实时显示系统中各
 * 0 stopped：停止的进程数
 * 0 zombie：冻结进程数
 
-**Cpu\(s\):**  1.4%us,  9.6%sy,  0.0%ni, 88.5%id,  0.0%wa,  0.0%hi,  0.4%si,  0.0%st
+**Cpu\(s\):**  
 
-**Mem: **  4057864k total,  1925440k used,  2132424k free,    34740k buffers
+* 1.4%us：用户空间占用CPU百分比
+* 9.6%sy：内核空间占用CPU百分比
+* 0.0%ni：内核空间占用CPU百分比
+* 88.5%id： 空闲CPU百分比
+* 0.0%wa：等待输入输出的CPU时间百分比
+* 0.0%hi：
+* 0.4%si：
+* 0.0%st：
 
-**Swap:**        0k total,        0k used,        0k free,  1223724k cached
+**Mem: **  
+
+* 4057864k total：物理内存总量
+* 1925440k used：物理内存总量
+* 2132424k free：物理内存总量
+* 34740k buffers：物理内存总量
+
+**Swap:**       
+
+* 0k total：交换区总量
+* 0k used：交换区总量    
+* 0k free：空闲交换区总量
+* 1223724k cached：缓冲的交换区总量
+
+
 
